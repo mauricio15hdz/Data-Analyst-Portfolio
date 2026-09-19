@@ -21,7 +21,8 @@ Built a Tableau dashboard connected directly to an AWS S3 bucket, aggregating an
 **Tools:** Tableau, AWS S3
 *Note: opening the `.twb` file requires Tableau Desktop. A published [Tableau Public](https://public.tableau.com) version with an interactive, browser-viewable dashboard is coming soon — check back or reach out for a live walkthrough.*
 
----
+### [PySpark Weather API Pipeline](./San%20Salvador%20Weather%20Spark.ipynb)
+Built a Spark-based ETL pipeline pulling live weather data from the WeatherAPI (current, forecast, and historical endpoints) for San Salvador, El Salvador, transforming nested JSON responses into flat Spark DataFrames via pandas.json_normalize and spark.createDataFrame. Engineered a rainfall-vs-forecast trend visualization as an early-warning indicator for how weather conditions may correlate with sales performance. Tools: Python, PySpark, pandas, requests, matplotlib. Note: built and run in Google Colab. Live demo available on request.
 
 ## Skills 
 `SQL` `Python` `Power BI` `Tableau` `DuckDB` `AWS S3` `ETL Pipelines` `Time Series Forecasting (SARIMA)` `Machine Learning (Random Forest)` `Data Engineering at Scale`
